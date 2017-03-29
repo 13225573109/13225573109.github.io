@@ -3,8 +3,8 @@
           "apps": [],
           "details": [
               {
-                  "appID": "N3XKR4C366.com.kuaiyoujia.appstore",
-                  "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*" ]
+                  "appID": "5GRV9UE4L5.com.zhbservice.zhbservice",
+                  "paths": [ "/jumpToApp/itemDetail/"]
               }
           ]
       }
