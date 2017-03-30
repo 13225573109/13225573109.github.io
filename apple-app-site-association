@@ -4,7 +4,7 @@
           "details": [
               {
                   "appID": "N3XKR4C366.com.kuaiyoujia.appstore",
-                  "paths": [ "/jumpToApp/itemDetail/"]
+                  "paths": ["*"]
               }
           ]
       }
