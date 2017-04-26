@@ -5,6 +5,19 @@
 		<title>跳转</title>
 	</head>
 	<body>
-        <a href='zhbservice://zhbservice.com/goapp?openby:zhbservice={"action":"go.productDetail","params":{"productId":"e37a113be8eb47f7b1d9e332f9fc142b"},"sign":"848ef44c3d2745359aeccd96cadbdee5"}' style="display:block;height:100;width:200;background:red;text-align:center;">商品详情</a>
+        <a href='zhbservice://zhbservice.com/goapp?openby:zhbservice={"action":"go.productDetail","params":{"productId":"e37a113be8eb47f7b1d9e332f9fc142b"},"sign":"848ef44c3d2745359aeccd96cadbdee5"}' style="display:block;height:1000;width:2000;background:red;text-align:center;">商品详情</a>
 	</body>
+    <script>
+      function ios(){
+              var ifr = document.createElement("iframe");
+              ifr.src = 'zhbservice://zhbservice.com/goapp?openby:zhbservice={"action":"go.productDetail","params":{"productId":"e37a113be8eb47f7b1d9e332f9fc142b"},"sign":"848ef44c3d2745359aeccd96cadbdee5"}'; /***打开app的协议，有ios同事提供***/
+              ifr.style.display = "none";
+              document.body.appendChild(ifr);
+              window.setTimeout(function(){
+                                document.body.removeChild(ifr);
+                                window.location.href = "https://itunes.apple.com/app/1116559668"; /***下载app的地址***/
+                                },2000)
+      };
+    ios();
+    </script>
 </html>
