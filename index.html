@@ -40,6 +40,7 @@
     
     
     function xhrGet(url, cb) {
+        
         var conn = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
         conn.onreadystatechange = function () {
             if (conn.readyState == 4 && conn.status == 200) {
@@ -56,9 +57,6 @@
     var isWechat = /micromessenger/i.test(navigator.userAgent || '');
     
     if(isWechat){
-        url = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.yoho&g_f=995445';
-        location.href = url;
-        
         document.getElementById("test").innerHTML="跳转到Safari打开";
     }
     
@@ -186,7 +184,7 @@
                });
                
                // 联盟点击
-               if (params.union_type && !isWechat) {
+               if (params.union_type) {
                    unionClick();
                }
                
