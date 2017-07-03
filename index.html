@@ -56,14 +56,14 @@
     var url = 'zhbservice://zhbservice.com/goapp?openby:zhbservice={"action":"go.productDetail","params":{"productId":"e37a113be8eb47f7b1d9e332f9fc142b"},"sign":"848ef44c3d2745359aeccd96cadbdee5"}';
     var isWechat = /micromessenger/i.test(navigator.userAgent || '');
     
-    if(!isWechat){
+//     if(!isWechat){
 //         document.getElementById("test").innerHTML="跳转到Safari打开";
 	    document.getElementById("test").onclick = function () {
-   			
+   			alert('gggggggggg');
 	   		 var shareCommnd = ["", "APXInterface", "pop", @""];
 			window.webkit.messageHandlers.cordova.postMessage(shareCommnd);
 		}
-    }
+//     }
     
     var u = navigator.userAgent.toLowerCase();
     var isiOS = u.indexOf('os') > -1 || u.indexOf('iphone') > -1 || u.indexOf('mac') > -1 || u.indexOf('ipad') > -1;
