@@ -123,25 +123,25 @@
                //记录唤醒时间
                var openTime = +new Date();
                
-               window.setTimeout(function () {
-                                 if (ifr) {
-                                 document.body.removeChild(ifr);
-                                 }
+//                window.setTimeout(function () {
+//                                  if (ifr) {
+//                                  document.body.removeChild(ifr);
+//                                  }
                                  
-                                 //如果setTimeout 回调超过2500ms，则弹出下载
-                                 if ((+new Date()) - openTime > 500) {
-                                 if (isiOS) {
-                                 url = '//itunes.apple.com/us/app/id490655927?ls=1&mt=8';
-                                 } else {
-                                 url = '//yoho-apps.qiniudn.com/YohoBuy_YOHO.apk';
-                                 }
+//                                  //如果setTimeout 回调超过2500ms，则弹出下载
+//                                  if ((+new Date()) - openTime > 500) {
+//                                  if (isiOS) {
+//                                  url = '//itunes.apple.com/us/app/id490655927?ls=1&mt=8';
+//                                  } else {
+//                                  url = '//yoho-apps.qiniudn.com/YohoBuy_YOHO.apk';
+//                                  }
                                  
-                                 unionClick();
+//                                  unionClick();
                                  
-                                 location.href = url;
-                                 // window.open(url);
-                                 }
-                                 }, 1000);
+//                                  location.href = url;
+//                                  // window.open(url);
+//                                  }
+//                                  }, 1000);
                
                if (isiOS) {
                window.location.href = appPath;
