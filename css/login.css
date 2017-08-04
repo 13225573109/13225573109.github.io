@@ -1,0 +1,849 @@
+@charset "utf-8";
+/*main 公共宽度*/
+/*设置ie透明度*/
+/*设置页面公共样式*/
+/*main 公共宽度*/
+body {
+  background: #f5f5f5;
+}
+input {
+  font-family: "微软雅黑";
+}
+.userForm .cz_p {
+  text-align: center;
+  color: #fff;
+}
+.userForm .cz_p img {
+  vertical-align: middle;
+  margin: 0 5px;
+  padding-bottom: 2px;
+}
+.loginBtnwarp input:hover,
+.passBox .bdWarp input:hover {
+  background: #007cda;
+}
+.loginWarp {
+  width: 100%;
+  height: 680px;
+  background: #fe3466 url(../images/common/loginBanner.jpg) center 0 no-repeat;
+}
+.loginBanner {
+  width: 1200px;
+  height: 680px;
+  margin: 0 auto;
+}
+.loginText {
+  float: right;
+  margin-top: 65px;
+  position: relative;
+}
+.loginBg {
+  width: 480px;
+  height: 550px;
+  background: #582028;
+  opacity: 0.7;
+  border-radius: 5px;
+  filter: alpha(opacity=70);
+}
+.loginTwarp {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loginTitle {
+  margin: 35px 0;
+}
+.loginCon {
+  width: 306px;
+  margin: 0 auto;
+}
+.loginCon span,
+.loginCon em {
+  display: inline-block;
+  float: left;
+}
+.loginCon span {
+  width: 90px;
+  height: 1px;
+  border-bottom: 1px solid #c0b0b2;
+  margin-top: 12px;
+}
+.loginCon em {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 23px;
+}
+.errorTitle,
+.errorTitle2,
+.userForm {
+  width: 385px;
+  margin: 0 auto;
+}
+.errorTitle,
+.errorTitle2 {
+  margin-bottom: 5px;
+}
+.errorTitle span,
+.errorTitle2 span,
+.errorTitle2 em,
+.errorTitle em {
+  display: inline-block;
+}
+.errorTitle span,
+.errorTitle2 span {
+  width: 100%;
+  height: 14px;
+  background: url(../images/common/loginIcon.png) 0 -93px no-repeat;
+}
+.errorTitle em,
+.errorTitle2 em {
+  color: #ff711c;
+  text-indent: 2em;
+}
+.Iwarp {
+  margin-bottom: 18px;
+}
+.Iwarp,
+.Iwarp input {
+  height: 46px;
+  line-height: 46px;
+  vertical-align: top;
+  float: left;
+  position: relative;
+}
+.Iwarp input {
+  width: 287px;
+  color: #a3aaae;
+  font-size: 16px;
+  padding: 0 20px;
+  border: none;
+  color: #363f4d;
+}
+.Iwarp span {
+  width: 58px;
+  height: 46px;
+  display: inline-block;
+  background: #ff711c;
+  position: relative;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.Iwarp span em {
+  width: 58px;
+  height: 30px;
+  background: url(../images/common/loginIcon.png) center 0 no-repeat;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.Iwarp2 span em {
+  background-position: center -31px;
+}
+.Iwarp3 span em {
+  background-position: center -62px;
+}
+.Iwarp i {
+  width: 6px;
+  height: 14px;
+  display: inline-block;
+  background: url(../images/common/loginIcon.png) -24px -112px no-repeat;
+  position: absolute;
+  right: -6px;
+  top: 15px;
+  z-index: 2;
+}
+.Iwarp .pInput {
+  width: 182px;
+}
+.Iwarp .pInput2 {
+  width: 172px;
+}
+.marB30 {
+  margin-bottom: 30px;
+}
+.eyeBg {
+  background: url(../images/common/pwlook.png) 0 0 no-repeat;
+}
+.eyeBtn {
+  width: 30px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  background-position: 0 0;
+  cursor: pointer;
+}
+.eyeBtn2 {
+  background-position: 0 -19px;
+}
+.forgetLink {
+  width: 105px;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  background: #ffffff;
+  position: relative;
+}
+.forgetLink img {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+.forgetLink a {
+  color: #0068b7;
+  font-size: 14px;
+}
+.forgetLink a:hover {
+  text-decoration: underline;
+}
+.forgetLink img {
+  margin-top: 5px;
+}
+.forgetLink b {
+  height: 20px;
+  border-left: 1px solid #dfdfdf;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+.forgetLink2 {
+  width: 115px;
+}
+.pInputus,
+.forgetLink {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.loginAgreed p {
+  text-align: center;
+}
+.loginAgreed p span {
+  width: 18px;
+  height: 19px;
+  display: inline-block;
+  background: url(../images/common/loginIcon.png) 0 -127px no-repeat;
+  margin-right: 6px;
+  vertical-align: top;
+}
+.loginAgreed p .checked {
+  background-position: 0 -107px;
+}
+.loginAgreed p em,
+.loginAgreed p em a {
+  color: #ffffff;
+}
+.loginAgreed p em a {
+  text-decoration: underline;
+}
+.loginAgreed p em a:hover {
+  text-decoration: underline;
+  color: #0068b7;
+}
+.loginBtnwarp {
+  text-align: center;
+  margin: 8px 0;
+}
+.loginBtn,
+.resLink {
+  width: 320px;
+  margin: 0 auto;
+}
+.loginBtn {
+  height: 48px;
+  background: #0068b7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+}
+.resLink p {
+  color: #ffffff;
+  text-align: right;
+  margin-top: 40px;
+}
+.resLink p a {
+  color: #fff;
+  text-decoration: underline;
+}
+.resLink p a:hover {
+  text-decoration: underline;
+  color: #0068b7;
+}
+/*注册页面*/
+.resText {
+  margin-top: 20px;
+}
+.regBg {
+  height: 640px;
+}
+.regTitle {
+  margin: 20px 0;
+}
+.resIwarp {
+  width: 100%;
+}
+.resIh span em {
+  background-position: center 0;
+}
+.resIuser span em {
+  background-position: center -146px;
+}
+.resIwarp span em {
+  background-position: center -177px;
+}
+.resIh i {
+  background-position: -24px -128px;
+}
+.regForget {
+  width: 147px;
+  background: #0068b7;
+  float: right;
+  border-radius: 5px;
+  position: relative;
+}
+.regForget .b1 {
+  font-size: 16px;
+  position: static;
+}
+.regForget i {
+  position: absolute;
+  right: 70px;
+  top: -1px;
+  background: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+.resIwarp .regForget b,
+.resIwarp .regForget .zzc {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  padding-left: 0;
+  border: none;
+  font-weight: normal;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.regForget .zzc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: none;
+}
+.resIwarp .regForget .overTime,
+.resIwarp .regForget .overTime2 {
+  background: #999;
+}
+.resIwarp .regForget .overTime {
+  border-radius: 5px;
+}
+.resIwarp .regForget .overTime2 {
+  width: 74px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Iwarp .regpInput {
+  width: 130px;
+}
+.resIwarp b {
+  border-right: 1px solid #dfdfdf;
+  padding-right: 8px;
+  margin-right: 8px;
+}
+.resIwarp input {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.resIh span {
+  background: #999999;
+}
+.reslink2 p {
+  margin-top: 17px;
+}
+/*404 错误页面*/
+.errorWarp {
+  width: 100%;
+  background: #ffffff;
+  padding-top: 60px;
+}
+.errBg {
+  background: #ffffff url(../img/common/errorIocn.png) 0 0 no-repeat;
+}
+.errorIcon {
+  width: 348px;
+  height: 169px;
+  margin: 0 auto;
+  background-position: 0 -30px;
+}
+.errorText {
+  width: 100%;
+  height: 30px;
+  background-position: center 0px;
+  margin: 80px 0;
+}
+.errorBtn {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.errorBtn a {
+  width: 222px;
+  height: 54px;
+  display: inline-block;
+}
+.errorBtn .indexBtn {
+  background-position: -361px -145px;
+}
+.errorBtn .prevBtn {
+  background-position: -361px -69px;
+}
+/*绑定邮箱*/
+.passWarp {
+  background: #f5f5f5;
+  margin: 40px 0;
+}
+.passBox {
+  width: 1120px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.passBox h1 {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 18px;
+  color: #0069bd;
+  padding-top: 80px;
+}
+.passBox form input {
+  width: 385px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  color: #363f4d;
+  padding: 0 20px;
+  border: 1px solid #dfdfdf;
+}
+.pszText {
+  margin: 0 80px;
+}
+.formWarp {
+  text-align: center;
+  padding: 106px;
+}
+.formWarp form {
+  width: 427px;
+  margin: 0 auto;
+}
+.formWarp form input {
+  border-radius: 3px;
+}
+.szInput {
+  margin-bottom: 50px;
+}
+.szInput p {
+  color: #ff711c;
+  text-align: left;
+  margin-top: 5px;
+}
+.bdWarp {
+  font-size: 18px;
+}
+.passBox .bdWarp input {
+  background: #0068b7;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+/*手机邮箱验证*/
+.pmBox {
+  padding-top: 60px;
+}
+.peList ul {
+  height: 52px;
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+}
+.peList ul li {
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #0069bd;
+  background: url(../images/common/yzIcon.png) 0 0 no-repeat;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  z-index: 2;
+}
+.peList ul li.email {
+  left: 150px;
+  z-index: 1;
+}
+.formWarp2 {
+  margin-top: 88px;
+  display: none;
+}
+.formWarp3 {
+  display: none;
+}
+.szInput2 {
+  margin-bottom: 5px;
+}
+.passBox form .szyzm,
+.passBox form .dxyzm {
+  position: relative;
+}
+.passBox form .szyzm span,
+.passBox form .dxyzm span,
+.passBox form .dxyzm span em {
+  display: inline-block;
+}
+.passBox form .szyzm span {
+  width: 97px;
+  height: 48px;
+  position: absolute;
+  right: 4px;
+  top: 0;
+}
+.passBox form .szyzm span img {
+  width: 100px;
+  height: 100%;
+}
+.dxyzm {
+  text-align: left;
+}
+.peBtn {
+  margin-top: 50px;
+}
+.passBox form .dxyzm input {
+  width: 218px;
+}
+.passBox form .dxyzm span {
+  height: 48px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #ff711c;
+}
+.passBox form .dxyzm span em {
+  width: 156px;
+  height: 34px;
+  line-height: 34px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.passBox form .dxyzm span em.time {
+  height: 48px;
+  line-height: 48px;
+  background: #dcdcdc;
+  border: none;
+  margin-top: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.passBox form .dxyzm span .zzc {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  cursor: pointer;
+}
+.passBox form .dxyzm span .dxem1 {
+  border-right: 1px solid #ffffff;
+}
+.peList ul li.tactive {
+  background-position: 0 -52px;
+  color: #ffffff;
+}
+.loginBanner {
+  position: relative;
+}
+.loginText {
+  z-index: 99;
+}
+.hc-success {
+  padding-top: 32px;
+  margin-top: 26px;
+  background: #582028;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  width: 480px;
+  height: 607px;
+  z-index: 98;
+  display: none;
+}
+.hc-wap {
+  position: absolute;
+  right: 0;
+  width: 480px;
+  height: 630px;
+}
+.hc-bg-img {
+  width: 50px;
+  height: 50px;
+  margin: 106px auto 0;
+}
+.hc-bg-img span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../images/common/finish.png) center center no-repeat;
+}
+.hc-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 48px;
+}
+.hc-info p {
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+.hc-btn-box {
+  width: 100%;
+}
+.hc-btn-box a {
+  display: block;
+  width: 224px;
+  height: 54px;
+  margin: 106px auto 0;
+  background: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #0069bd;
+  font-size: 16px;
+  text-align: center;
+  line-height: 54px;
+}
+/*密码设置已实名*/
+.passWarp1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.passWarp1 .passBox1 {
+  width: 1120px;
+  height: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+}
+.passWarp1 .pszText1 {
+  margin: 0 80px;
+}
+.passWarp1 .pszText1 h1 {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 18px;
+  color: #0069bd;
+  padding-top: 80px;
+}
+.passWarp1 .pszText1 .formWarp1 {
+  text-align: center;
+}
+.passWarp1 .pszText1 .formWarp1 .p1 {
+  height: 92px;
+  padding-top: 40px;
+}
+.passWarp1 .pszText1 .formWarp1 .p2 {
+  font_size: 18px;
+  height: 46px;
+}
+.passWarp1 .pszText1 .formWarp1 form {
+  width: 385px;
+  margin: 0 auto;
+}
+.passWarp1 .pszText1 .formWarp1 form input[type='text'],
+.passWarp1 .pszText1 .formWarp1 form input[type='password'] {
+  width: 385px;
+  height: 46px;
+  line-height: 46px;
+  border: none;
+  border: 1px solid #dfdfdf;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.passWarp1 .pszText1 .formWarp1 form p {
+  text-align: left;
+  color: #FF711C;
+  height: 70px;
+  line-height: 20px;
+}
+.passWarp1 .pszText1 .formWarp1 form input[type='button'] {
+  width: 320px;
+  height: 48px;
+  line-height: 48px;
+  border: none;
+  border-radius: 5px;
+  background: #237cc0;
+  color: #fff;
+  font_size: 18px;
+  cursor: pointer;
+}
+/*弹框 */
+.password_tk,
+.password_tk1 {
+  display: none;
+  background: #fff;
+}
+.password_tk .authentication_img,
+.password_tk1 .authentication_img {
+  width: 700px;
+  height: 74px;
+}
+.password_tk .authentication_img img,
+.password_tk1 .authentication_img img {
+  display: block;
+  margin: 25px auto 0;
+}
+.password_tk .authentication_p1,
+.password_tk1 .authentication_p1 {
+  height: 28px;
+  line-height: 28px;
+  font-size: 20px;
+  text-align: center;
+}
+.password_tk .authentication_b2,
+.password_tk1 .authentication_b2 {
+  display: block;
+  cursor: pointer;
+  width: 270px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #0068b7;
+  color: #fff;
+  margin: 25px auto 0;
+  border-radius: 5px;
+}
+.password_tk .authentication_b2:hover,
+.password_tk1 .authentication_b2:hover {
+  text-decoration: none;
+}
+/*
+ * 更换手机号码
+ */
+.passBox form .dxyzm .dxyy_yzm {
+  width: 156px;
+  cursor: pointer;
+}
+.passBox form .dxyzm .dxyy_yzm strong {
+  float: left;
+  width: 49%;
+  text-align: center;
+  margin: 10px 0;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+.peList2 {
+  display: none;
+}
+.mar50px {
+  margin: 50px 106px 106px;
+}
+.mar0 {
+  margin: 0 106px;
+}
+.mar0 .p2 {
+  height: 80px;
+  line-height: 60px;
+  font-size: 18px;
+}
+.formWarp .email_s {
+  margin-bottom: 50px;
+}
+.formWarp .p_email {
+  font-size: 18px;
+}
+.formWarp .a_email {
+  display: block;
+  width: 300px;
+  height: 46px;
+  line-height: 46px;
+  margin: 50px auto 0;
+  background: #0068b7;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+/*
+ * 设置用户名
+ */
+.username_p1 {
+  margin: 10px 0;
+  height: 30px;
+  background: #fff8ea;
+  line-height: 30px;
+  padding-left: 15px;
+}
+.username_p1 img {
+  display: inline-block;
+  margin: -3px 7px 0 7px;
+  vertical-align: middle;
+}
+.username_input {
+  margin: 65px auto 100px;
+  width: 410px;
+}
+.username_input input[type='text'] {
+  width: 385px;
+  height: 46px;
+  line-height: 46px;
+  border: none;
+  border: 1px solid #dfdfdf;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.username_input p {
+  text-align: left;
+  color: #FF711C;
+  height: 24px;
+  line-height: 24px;
+}
+.username_button {
+  width: 544px;
+  margin: 0 auto 140px;
+}
+.username_button a {
+  float: left;
+  width: 238px;
+  height: 44px;
+  line-height: 44px;
+  border: 2px solid #0068b7;
+  text-align: center;
+  color: #0068b7;
+  font-size: 18px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.username_button a:first-of-type {
+  margin-right: 60px;
+}
+.username_button .username_now {
+  background: #0068b7;
+  color: #fff;
+}
